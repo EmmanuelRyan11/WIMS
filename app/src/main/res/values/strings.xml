@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WIMS</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="beranda">Beranda</string>
+    <string name="laporan_in">Laporan IN</string>
+    <string name="laporan_out">Laporan OUT</string>
+    <string name="kategori">Kategori</string>
+    <string name="stok">Data Stok</string>
+    <string name="afiliasi">Detail Afiliasi</string>
+    <string name="pengaturan">Pengaturan Akun</string>
+</resources>

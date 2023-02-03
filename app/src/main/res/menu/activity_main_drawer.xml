@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_beranda"
+            android:icon="@drawable/ic_beranda"
+            android:title="@string/beranda" />
+        <item
+            android:id="@+id/nav_laporan_in"
+            android:icon="@drawable/ic_laporan_in"
+            android:title="@string/laporan_in" />
+        <item
+            android:id="@+id/nav_laporan_out"
+            android:icon="@drawable/ic_laporan_out"
+            android:title="@string/laporan_out" />
+        <item
+            android:id="@+id/nav_kategori"
+            android:icon="@drawable/ic_kategori"
+            android:title="@string/kategori" />
+
+        <item
+            android:id="@+id/nav_stok"
+            android:icon="@drawable/ic_stok"
+            android:title="@string/stok" />
+
+        <item
+            android:id="@+id/nav_afiliasi"
+            android:icon="@drawable/ic_afiliasi"
+            android:title="@string/afiliasi" />
+
+        <item
+            android:id="@+id/nav_pengaturan"
+            android:icon="@drawable/ic_pengaturan"
+            android:title="@string/pengaturan" />
+    </group>
+</menu>

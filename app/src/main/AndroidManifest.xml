@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.earthsky.wims">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WIMS">
+        <activity
+            android:name=".ui.pengaturan.PengaturanGantiEmail"
+            android:exported="false" />
+        <activity
+            android:name=".ui.pengaturan.PengaturanGantiSandi"
+            android:exported="false" />
+        <activity
+            android:name=".ui.stok.StokEdit"
+            android:exported="false" />
+        <activity
+            android:name=".ui.afiliasi.AfiliasiEdit"
+            android:exported="false" />
+        <activity
+            android:name=".ui.stok.StokTambah"
+            android:exported="false" />
+        <activity
+            android:name=".ui.afiliasi.AfiliasiTambah"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kategori.afiliasi.KategoriAfiliasi"
+            android:exported="false"
+            android:parentActivityName=".ui.kategori.afiliasi.KategoriAfiliasi" />
+        <activity
+            android:name=".ui.kategori.barang.KategoriBarang"
+            android:exported="false"
+            android:parentActivityName=".ui.kategori.barang.KategoriBarang" />
+        <activity
+            android:name=".ui.kategori.jenis.KategoriJenis"
+            android:exported="false"
+            android:parentActivityName=".ui.kategori.jenis.KategoriJenis" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".LupaSandiActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".SignInActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.WIMS.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

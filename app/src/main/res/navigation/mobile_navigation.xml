@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_beranda">
+
+    <fragment
+        android:id="@+id/nav_beranda"
+        android:name="com.earthsky.wims.ui.beranda.BerandaFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_beranda" />
+
+    <fragment
+        android:id="@+id/nav_laporan_in"
+        android:name="com.earthsky.wims.ui.laporanin.LaporanInFragment"
+        android:label="@string/laporan_in"
+        tools:layout="@layout/fragment_laporan_in" />
+
+    <fragment
+        android:id="@+id/nav_laporan_out"
+        android:name="com.earthsky.wims.ui.laporanout.LaporanOutFragment"
+        android:label="@string/laporan_out"
+        tools:layout="@layout/fragment_laporan_out" />
+
+    <fragment
+        android:id="@+id/nav_kategori"
+        android:name="com.earthsky.wims.ui.kategori.KategoriFragment"
+        android:label="@string/kategori"
+        tools:layout="@layout/fragment_kategori" />
+
+    <fragment
+        android:id="@+id/nav_stok"
+        android:name="com.earthsky.wims.ui.stok.StokFragment"
+        android:label="@string/stok"
+        tools:layout="@layout/fragment_stok" />
+
+    <fragment
+        android:id="@+id/nav_afiliasi"
+        android:name="com.earthsky.wims.ui.afiliasi.AfiliasiFragment"
+        android:label="@string/afiliasi"
+        tools:layout="@layout/fragment_afiliasi" />
+
+    <fragment
+        android:id="@+id/nav_pengaturan"
+        android:name="com.earthsky.wims.ui.pengaturan.PengaturanFragment"
+        android:label="@string/pengaturan"
+        tools:layout="@layout/fragment_pengaturan" />
+</navigation>
