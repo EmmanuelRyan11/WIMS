@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <!--    untuk : item kategori jenis -->
+    <!--  -->
     <androidx.cardview.widget.CardView
         android:id="@+id/cvKatBarang"
         android:layout_width="match_parent"
