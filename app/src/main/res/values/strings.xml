@@ -10,4 +10,6 @@
     <string name="stok">Data Stok</string>
     <string name="afiliasi">Detail Afiliasi</string>
     <string name="pengaturan">Pengaturan Akun</string>
+    <string name="logout">Logout</string>
+    <string name="about">About Us</string>
 </resources>

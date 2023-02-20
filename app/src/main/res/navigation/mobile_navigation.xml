@@ -46,4 +46,10 @@
         android:name="com.earthsky.wims.ui.pengaturan.PengaturanFragment"
         android:label="@string/pengaturan"
         tools:layout="@layout/fragment_pengaturan" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.earthsky.wims.ui.about.AboutUsFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about_us" />
 </navigation>

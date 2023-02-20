@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--    tools:context=".ui.pengaturan.PengaturanFragment">-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="#FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingLeft="16dp">
+
+                    <TextView
+                        android:id="@+id/banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="The WIMS"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:textSize="25sp"/>
+
+                    <TextView
+                        android:id="@+id/bannerDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="9dp"
+                        android:text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi expedita reiciendis, tempora sed nobis id incidunt voluptates nihil ullam pariatur quibusdam, suscipit eius, esse reprehenderit modi assumenda aperiam nostrum mollitia non iusto minus at maiores quam atque. Aliquid labore sunt voluptatibus enim deserunt distinctio excepturi consectetur. Reprehenderit id rerum eum facilis numquam voluptatum, enim libero cum ad. Nemo quisquam assumenda non quia recusandae earum, voluptatum dolor eum incidunt, pariatur fugiat veniam atque architecto numquam consequuntur similique rerum nihil. Neque praesentium temporibus aliquam quia amet fugiat sapiente id facere aliquid officiis, accusantium explicabo saepe labore omnis, reiciendis facilis corporis. Magni, suscipit!"
+                        android:textFontWeight="450"
+                        android:textSize="@dimen/FS_type1a"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <!--                <ProgressBar-->
+        <!--                    android:id="@+id/progressBar"-->
+        <!--                    style="?android:attr/progressBarStyleLarge"-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_centerInParent="true"-->
+        <!--                    android:visibility="gone"-->
+        <!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--                    app:layout_constraintTop_toTopOf="parent"-->
+        <!--                    app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--                    app:layout_constraintRight_toRightOf="parent"-->
+        <!--                    />-->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -35,5 +35,15 @@
             android:id="@+id/nav_pengaturan"
             android:icon="@drawable/ic_pengaturan"
             android:title="@string/pengaturan" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />
     </group>
 </menu>
